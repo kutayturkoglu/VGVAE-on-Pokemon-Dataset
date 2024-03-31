@@ -15,6 +15,7 @@ This project explores VQVAE at a beginner level, utilizing a VQVAE model adapted
 - [Credits](#credits)
 
 ## Vector Quantized Variational Autoencoders (VQVAEs)
+![The formula for VQVAE](imgs/vqvae.png)
 
 A VQVAE consists of three key components: Encoder, Decoder, and latent space. The encoder component, shrinks down the image size, and captures the most important features of the image in a smaller latent space. Unlike Variational Autoencoders, in VQVAEs, the latent space made out of discrete codewords.The discrete latent variables zare then calculated by a nearest neighbour look-up using the shared embedding space e.
 
