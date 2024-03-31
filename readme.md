@@ -18,7 +18,7 @@ This project explores VQVAE at a beginner level, utilizing a VQVAE model adapted
 
 A VQVAE consists of three key components: Encoder, Decoder, and latent space. The encoder component, shrinks down the image size, and captures the most important features of the image in a smaller latent space. Unlike Variational Autoencoders, in VQVAEs, the latent space made out of discrete codewords.The discrete latent variables zare then calculated by a nearest neighbour look-up using the shared embedding space e.
 
-![The formula for the nearest neighbour lookup](data/nearestneighbour.png)
+![The formula for the nearest neighbour lookup](imgs/nearestneighbour.png)
 
 Afterwards, the codewords pass through the decoder part, which increases the dimension of the latent space to be able to reconstruct the images.
 
